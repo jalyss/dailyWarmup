@@ -22,5 +22,14 @@
  * including non-strings.
 */
 
+Array.prototype.isSubsetOf = function (array) {
+    let res = false
+    for (let i = 0; i < this.length; i++) {
+        array.includes(this[i]) ? res = true : res = false
+        // console.log( array,this[i],array.includes(this[i]),res)
+    }
+    return res
+}
 
-
+var a = ['commit', 'push']
+console.log(a.isSubsetOf(['commit', 'rebase', 'push', 'blame']))
