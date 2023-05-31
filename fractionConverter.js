@@ -20,3 +20,10 @@
  * 
  *!                                           Happy coding have fun  
  */
+
+
+
+
+ const toFraction = (num) => {
+    
+ }
