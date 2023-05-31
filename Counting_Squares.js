@@ -35,3 +35,16 @@ So the count would be 4
 ! Happy coding 👌
 
 */
+
+
+const squareCount = (a,b) => {
+    let c = 0 ;  // our counter start at 0 
+    for(let f=a;f<=b;f++){     // O(N) time complexity
+        Number.isInteger(Math.sqrt(f))&&c++; //check if f is a perfect square
+    }
+    return c
+}
+
+
+
+console.log(squareCount(12,56));
