@@ -8,19 +8,20 @@
 **  
 **   
 *!1.) 
-
 *!Input: 3
-*!Output: 4
+*!Output: 3
 *! 
 *!2.) 
 
 *!Input: 4
-*!Output: 7
+*!Output: 5
 *! 
 *!3.)
 
 *!Input: 50
-*!Output: 10562230626642
+*!Output: 32 951 280 099
 **
 *? HAPPY coding  ≧◠‿◠≦✌
 */
+
+
